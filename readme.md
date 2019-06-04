@@ -1,4 +1,4 @@
-#Spring security
+# Spring security
 
 执行原理分析：核心是springSecurityFilterChain
 
@@ -94,7 +94,7 @@ UsernamePasswordAuthenticationFilter#attemptAuthentication(httppRequest, httpRes
 登录页面单独配置权限: permitAll() 
 
 
-死定以
+自定义：
 - 用户信息硬编码
 - 自定义用户权限配置服务
 
@@ -200,7 +200,7 @@ public final class DefaultSecurityFilterChain implements SecurityFilterChain{}
 
 ```
 
-#RBAC模型
+# RBAC模型
 role-based access control: 权限 -(n:m)- 角色 -(n:m)- 用户
 
 - 用户表
@@ -209,7 +209,7 @@ role-based access control: 权限 -(n:m)- 角色 -(n:m)- 用户
 - 用户角色表
 - 角色权限表
 
-#problems
+# problems
 
 templates/greeting.html文件需要在 templates 目录下，否则找不到文件。应该与thymeleaf有关，待验证。
 
