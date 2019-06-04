@@ -1,0 +1,3 @@
+rootProject.name = 'springmvc_demo'
+include 'restful'
+
